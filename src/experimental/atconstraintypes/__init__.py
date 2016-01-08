@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """Init and utils."""
 
-from zope.i18nmessageid import MessageFactory
-
-_ = MessageFactory('experimental.atconstraintypes')
+import logging
+logger = logging.getLogger('experimental.atconstraintypes')

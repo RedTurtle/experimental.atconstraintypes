@@ -45,13 +45,13 @@ setup(
     install_requires=[
         'plone.api',
         'setuptools',
-        'z3c.jbot',
+        'collective.monkeypatcher'
     ],
     extras_require={
         'test': [
             'plone.app.testing',
-            'plone.app.contenttypes',
-            'plone.app.robotframework[debug]',
+            'plone.dexterity',
+            'plone.app.dexterity'
         ],
     },
     entry_points="""
