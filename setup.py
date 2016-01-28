@@ -19,7 +19,7 @@ long_description = (
 
 setup(
     name='experimental.atconstraintypes',
-    version='1.0a1',
+    version='0.1.0',
     description="A monkeypatch for Products.ATContenttypes that fix a bug when an AT folderish content is inside a DX folderish content",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
